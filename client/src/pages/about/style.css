@@ -1,0 +1,6 @@
+#aboutContainer {
+    position: fixed;
+    top: 40px;
+    height: max-content;
+    width: 100%;
+}

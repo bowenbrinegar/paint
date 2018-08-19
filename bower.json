@@ -1,0 +1,14 @@
+{
+  "name": "Paint",
+  "description": "A portfolio site for Michelle",
+  "main": "server.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

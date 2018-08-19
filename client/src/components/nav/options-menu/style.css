@@ -1,0 +1,28 @@
+#optionsMenuContainer {
+    position: fixed;
+    right: 0;
+    top: -250px;
+    height: 250px;
+    width: 400px;
+    transition: .5s;
+    z-index: 900;
+    padding: 0px 0 10px 10px;
+    background: rgb(54, 69, 83, .8);
+    border-radius: 0 0 0 10px;
+}
+
+#optionsMenuContainer.drawer {
+    transition: .5s;
+    top: 40px;
+}
+
+#optionsMenuContainer.dark {
+    background: rgb(137, 142, 146, .8);
+}
+
+@media only screen and (max-width: 500px){
+    #optionsMenuContainer {
+        width: 100%;
+        border-radius: 0;
+    }
+}

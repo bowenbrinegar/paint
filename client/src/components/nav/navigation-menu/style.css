@@ -1,0 +1,21 @@
+#navigationMenuContainer {
+    position: fixed;
+    right: 0;
+    top: -250px;
+    height: 250px;
+    width: 400px;
+    transition: .5s;
+    z-index: 900;
+    padding: 0px 0 10px 10px;
+}
+
+#navigationMenuContainer.drawer {
+    transition: .5s;
+    top: 40px;
+}
+
+@media only screen and (max-width: 500px){
+    #navigationMenuContainer {
+        width: 100%
+    }
+}

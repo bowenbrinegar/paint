@@ -1,0 +1,31 @@
+#navCard {
+    float: left;
+    height: calc(33.3% - 15px);
+    width: calc(100% - 10px);
+    margin: 10px 0 0px 10px;
+    background: rgb(54, 69, 83);
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+#navCard:hover {
+    background: rgb(85, 111, 134);
+}
+
+#navCard.dark {
+    background: rgb(137, 142, 146);
+}
+
+#navCard.dark:hover {
+    background: rgb(153, 179, 201);
+}
+
+#navCard.linkActive {
+    border-left: 10px solid rgb(0, 195, 255);
+}
+
+#navCard h1 {
+    margin: 10px 35px 10px 10px;
+}

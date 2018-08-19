@@ -1,0 +1,22 @@
+#pageContainer {
+    background: rgb(219, 228, 236);
+    width: 100%;
+    height: inherit;
+    min-height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    color: rgb(75, 93, 110);
+}
+
+#pageContainer.dark {
+    background: rgb(75, 93, 110);
+    transition: 0.5s;
+    color: rgb(219, 228, 236);
+}
+
+#pageContainer.blur {
+    filter: blur(1px);
+}
+
