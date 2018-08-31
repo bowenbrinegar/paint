@@ -1,6 +1,3 @@
-#aboutContainer {
-    position: fixed;
-    top: 40px;
-    height: max-content;
-    width: 100%;
+#aboutComponentContainer {
+    /* padding: 20px 24px; */
 }

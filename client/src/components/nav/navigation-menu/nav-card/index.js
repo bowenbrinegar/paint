@@ -5,7 +5,8 @@ import './style.css';
 class NavCard extends Component {
     render() {
         return(
-            <NavLink id='navCard' 
+            <NavLink exact
+                 id='navCard' 
                  className={this.props.navCardClasses}
                  activeClassName='linkActive'
                  onClick={this.props.navClick}

@@ -3,7 +3,8 @@ import './style.css'
 import preferencesIcon from '../../assets/icons/prefrences.png'
 import navigationIcon from '../../assets/icons/navigation.png'
 import NavMenu from './navigation-menu';
-import OptionsMenu from './options-menu'
+import OptionsMenu from './options-menu';
+import { NavLink } from 'react-router-dom';
 
 
 class Nav extends Component {
@@ -11,7 +12,10 @@ class Nav extends Component {
         return (
             <div>
                 <div id='navBarContainer'>
-                    <h1>Michel</h1>
+                    <NavLink exact to='/'
+                            onClick={this.props.closeAll}>
+                        <h1>Michel</h1>
+                    </NavLink>
                     <img onClick={this.props.navClick}
                         src={navigationIcon} />
                     {this.props.showOptions ? <img src={preferencesIcon} onClick={this.props.optionClick} /> : null}

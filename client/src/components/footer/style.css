@@ -1,0 +1,15 @@
+#footerComponentContainer {
+    background: rgb(54, 69, 83);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+    bottom: 0;
+    transition: .5s;
+}
+
+#footerComponentContainer.dark {
+    transition: .5s;
+    background: rgb(157, 170, 182);
+}

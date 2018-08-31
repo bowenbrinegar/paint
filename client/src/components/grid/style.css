@@ -1,0 +1,26 @@
+#gridContainer {
+    height: 125%;
+}
+
+.cardItemContainer {
+    position: relative;
+    background: rgb(54, 69, 83);
+    text-decoration: none;
+    color: black;
+    background: rgb(247, 247, 247);
+    border-radius: 3px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+}
+
+.cardItemContainerHover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(176, 237, 245, 0.336);
+    opacity: 0;
+}
+
+.cardItemContainerHover:hover {
+    transition: all .5s ease;
+    opacity: 1;
+}

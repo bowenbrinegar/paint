@@ -4,8 +4,10 @@ import './style.css'
 class About extends Component {
     render() {
         return (
-            <div id='aboutContainer'>
-                <h1>about</h1>
+            <div className="page">
+                <div id='aboutComponentContainer'>
+                    <h1>about</h1>
+                </div>
             </div>
         );
     }

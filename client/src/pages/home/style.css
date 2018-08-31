@@ -1,6 +1,4 @@
-#homeContainer {
-    position: fixed;
-    top: 40px;
-    height: max-content;
-    width: 100%;
+#homeComponentContainer {
+    /* padding: 20px 100px; */
 }
+

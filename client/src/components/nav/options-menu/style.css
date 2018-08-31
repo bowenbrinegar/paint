@@ -1,23 +1,27 @@
 #optionsMenuContainer {
     position: fixed;
     right: 0;
-    top: -250px;
+    top: 52px;    
     height: 250px;
     width: 400px;
     transition: .5s;
     z-index: 900;
     padding: 0px 0 10px 10px;
-    background: rgb(54, 69, 83, .8);
+    background: rgb(54, 69, 83, 1);
     border-radius: 0 0 0 10px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: top .2s ease;
 }
 
 #optionsMenuContainer.drawer {
-    transition: .5s;
-    top: 40px;
+    transform: scaleX(1);
+    transition: transform .5s ease-in-out;
 }
 
 #optionsMenuContainer.dark {
-    background: rgb(137, 142, 146, .8);
+    background: rgb(99, 137, 172);
+    transition: all .5 ease;
 }
 
 @media only screen and (max-width: 500px){

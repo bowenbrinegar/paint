@@ -1,2 +1,4 @@
 node_modules/
 client/node_modules/
+client/src/assets/paintings/
+client/src/assets/paintings-thumbnails/

@@ -1,0 +1,30 @@
+#pageErrorContainer {
+    position: inherit;
+    height: 50%;
+    width: 100%;
+    background: white;
+}
+
+.message {
+    position: absolute;
+    top: calc(50% - 40px);
+    transform: translate(0, -50%);
+    background: rgb(0, 242, 250);
+    height: 50px;
+    transition: 4s;
+}
+
+.message-enter {
+    width: 100px;
+}
+
+#right {
+    left: 0;
+    border-radius: 0 25px 25px 0;
+}
+
+#left {
+    right: 0;
+    border-radius: 25px 0 0 25px;
+}
+

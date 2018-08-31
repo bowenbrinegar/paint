@@ -11,6 +11,10 @@ class NavigationMenu extends Component {
                  <NavCard navCardClasses={this.props.navCardClasses}
                           pageRef='/'
                           navClick={this.props.navClick}
+                          title='Home'/>
+                 <NavCard navCardClasses={this.props.navCardClasses}
+                          pageRef='/portfolio/all'
+                          navClick={this.props.navClick}
                           title='Portfolio'/>
                  <NavCard navCardClasses={this.props.navCardClasses}
                           pageRef='/about'

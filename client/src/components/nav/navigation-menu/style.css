@@ -1,17 +1,20 @@
 #navigationMenuContainer {
     position: fixed;
     right: 0;
-    top: -250px;
-    height: 250px;
-    width: 400px;
+    top: 52px;
+    height: 230px;
+    width: 375px;
     transition: .5s;
     z-index: 900;
-    padding: 0px 0 10px 10px;
+    transform: scaleX(0);
+    transition: right .2s ease;
+    transform-origin: right;
+
 }
 
 #navigationMenuContainer.drawer {
-    transition: .5s;
-    top: 40px;
+    transform: scaleX(1);
+    transition: transform .2s ease;
 }
 
 @media only screen and (max-width: 500px){

@@ -1,14 +1,17 @@
 import React, { Component } from "react";
-import './style.css'
+import './style.css';
 
-class Contact extends Component {
+
+class ContactComponent extends Component {
     render() {
         return (
-            <div id='contactContainer'>
-                <h1>Contact</h1>
+            <div className="page">
+                <div id='contactComponentContainer'>
+                    <h1>Contact</h1>
+                </div>
             </div>
         );
     }
 }
 
-export default Contact;
+export default ContactComponent;
